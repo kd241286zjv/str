@@ -1,0 +1,38 @@
+.benefitTermsSection{
+  background-color: #DCF0F4;
+  color: #333;
+  padding: 125px 0;
+}
+.benefitTerm{
+  background-color: #fff;
+  padding: 50px 40px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.benefitTerm__image{
+  max-height: 112px;
+  width: auto;
+  margin-bottom: 25px;
+}
+.benefitTerm__header{
+  color: #1C398B;
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.benefitTerm__subheader{
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.5;
+  margin: 0;
+  min-height: 48px;
+  font-weight: 200;
+}

@@ -1,0 +1,22 @@
+.aboutSection{
+  padding: 100px 0;
+  color: #333;
+}
+.aboutRow__img img{
+  width: 100%;
+}
+.aboutRowBody__header{
+  font-size: 42px;
+  color: #1C398B;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+.aboutRowBody__description{
+  font-size: 20px;
+  line-height: 2;
+  font-weight: 200;
+  margin-bottom: 30px;
+}
+.aboutRowBody__notice{
+  font-size: 20px;
+}

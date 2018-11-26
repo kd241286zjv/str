@@ -1,0 +1,50 @@
+.mattressTypesSection{
+  padding: 100px 0;
+  background-color: #fff;
+  color: #333;
+}
+.mattressTypesSection__header{
+  font-size: 42px;
+  color: #1C398B;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 130px;
+  font-weight: 300;
+}
+.mattress__image img{
+  width: 100%;
+}
+.mattressDescription__header{
+  font-size: 32px;
+  color: #1C398B;
+  margin-bottom: 25px;
+  line-height: 1;
+  font-weight: 500;
+}
+.mattressDescription__description{
+  line-height: 2;
+  margin-bottom: 20px;
+  font-weight: 200;
+}
+.mattressDescription__link{
+  width: 145px;
+  height: 45px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  padding: 0;
+  color: #fff;
+  font-size: 16px;
+  background-color: #1C398B;
+  border: 1px solid #1C398B;
+  border-radius: 2px;
+  font-weight: 600;
+}
+.mattress{
+  -ms-align-items: center;
+  align-items: center;
+  padding: 80px 0;
+}
