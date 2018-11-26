@@ -20,3 +20,64 @@
 .aboutRowBody__notice{
   font-size: 20px;
 }
+.aboutRow{
+  margin-bottom: 60px;
+}
+.stats{
+  border-top: 2px solid #BFE4EB;
+  border-bottom: 2px solid #BFE4EB;
+  padding: 20px 0;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
+  -ms-align-items: center;
+  align-items: center;
+}
+.stat{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -ms-align-items: flex-end;
+  align-items: flex-end;
+}
+.stat span{
+  font-size: 80px;
+  color: #1C398B;
+  font-weight: 700;
+  line-height: 1;
+}
+.stat p{
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1;
+}
+.aboutFactoryRow{
+  margin-top: 60px;
+  -ms-align-items: center;
+  align-items: center;
+}
+.aboutFactory p{
+  margin-bottom: 20px;
+  line-height: 2;
+  font-weight: 200;
+  padding-left: 40px;
+  position: relative;
+}
+.aboutFactory p:before{
+  position: absolute;
+  top: 0px;
+  left: 0;
+  content:url('../img/arrow.svg');
+  width: 25px;
+  height: 10px;
+}
+.aboutFactory p:last-child{
+  margin-bottom: 0;
+}
+.aboutFactoryImg{
+  overflow: hidden;
+}
+.aboutFactoryImg img{
+  height: 100%;
+}

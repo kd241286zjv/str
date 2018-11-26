@@ -3,6 +3,9 @@
 @import url('benefit.css');
 @import url('mattressTypes.css');
 @import url('about.css');
+@import url('convenient.css');
+@import url('quality.css');
+@import url('thirdparty.css');
 *{
   box-sizing: border-box;
 }
@@ -14,4 +17,8 @@ body{
 a, a:hover, a:focus, a:active{
   color: inherit;
   text-decoration: none;
+}
+p{
+  margin: 0;
+  line-height: 2;
 }

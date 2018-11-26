@@ -1,0 +1,38 @@
+.thirdpartyProduction{
+  background-color: #f9f9f9;
+  padding: 100px 0;
+  color: #333;
+}
+.thirdpartyProduction__header{
+  font-size: 42px;
+  font-weight: 300;
+  color: #1C398B;
+  margin-bottom: 20px;
+  text-align: center;
+  max-width: 670px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.thirdpartyProduction__subheader{
+  font-size: 20px;
+  font-weight: 200;
+  max-width: 630px;
+  margin-bottom: 60px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.thirdPartyProduct__img{
+  width: 100%;
+  margin-bottom: 10px;
+}
+.thirdpartyProduct__header{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.thirdpartyProduct__desc{
+  font-weight: 200;
+}
+.thirdpartyProduct{
+  margin-bottom: 40px;
+}
