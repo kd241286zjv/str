@@ -64,6 +64,9 @@ header .row{
   position: absolute;
   bottom: 30px;
   left: calc(50% - 48px);
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
 }
 .scrollDown p{
   margin-bottom: 10px;
@@ -86,4 +89,61 @@ header .row{
   top: calc(50% - 3px);
   left: calc(50% - 1px);
   transform: translateY(-6px);
+}
+.scrollDown:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+@keyframes scroller {
+  from{transform: translateY(-6px);}
+  50%{transform: translateY(0);}
+  to{transform: translateY(-6px);}
+}
+.scrollDown:hover .scrollButton::after{
+  animation: scroller 1s infinite ease;
+}
+
+@media(max-width: 1199px){
+  .pageHeader{
+    text-align: center;
+  }
+}
+@media(max-width: 991px){
+  .pageHeader{
+    font-size: 40px;
+  }
+}
+@media(max-width: 767px){
+  .topHeader{
+    top: 20px;
+  }
+  .mainScr{
+    padding: 100px 0;
+  }
+  .pageHeader{
+    font-size: 30px;
+  }
+  .pageSubheader{
+    font-size: 18px;
+  }
+  .primaryButton{
+    margin: 30px auto;
+    width: 200px;
+    height: 40px;
+  }
+  .scrollDown p{
+    margin-bottom: 0;
+  }
+}
+@media(max-width: 575px){
+  .topHeader{
+    top: 10px;
+    padding: 0 10px;
+  }
+  .pageHeader{
+    font-size: 25px;
+  }
+  .pageSubheader{
+    font-size: 16px;
+  }
 }

@@ -16,9 +16,20 @@ body{
   font-weight: 400;
   font-size: 16px;
 }
-a, a:hover, a:focus, a:active{
+a{
   color: inherit;
+}
+p, h1, h2, h3{
+  cursor: default;
+}
+a, a:hover, a:focus, a:active{
   text-decoration: none;
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+}
+a:hover, button:hover{
+  filter: brightness(80%);
 }
 p{
   margin: 0;

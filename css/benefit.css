@@ -3,6 +3,9 @@
   color: #333;
   padding: 125px 0;
 }
+a:hover{
+  color: #fff;
+}
 .benefitTerm{
   background-color: #fff;
   padding: 50px 40px;
@@ -35,4 +38,36 @@
   margin: 0;
   min-height: 48px;
   font-weight: 200;
+}
+
+@media(max-width: 1199px){
+  .benefitTerm__header{
+    font-size: 18px;
+  }
+  .benefitTerm__subheader{
+    font-size: 13px;
+  }
+}
+@media(max-width: 991px){
+  .benefitTerm{
+    padding: 40px 20px;
+  }
+  .benefitTerm__header{
+    font-size: 15px;
+  }
+  .benefitTerm__subheader{
+    font-size: 11px;
+  }
+  .benefitTermsSection{
+    padding: 50px 0;
+  }
+}
+@media(max-width: 767px){
+  .benefitTerm__image{
+    max-height: 60px;
+  }
+  .benefitTerm__header{
+    text-align: center;
+    line-height: 1.2;
+  }
 }

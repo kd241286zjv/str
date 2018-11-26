@@ -48,3 +48,56 @@
   align-items: center;
   padding: 80px 0;
 }
+
+@media(max-width: 1199px){
+  .mattress{
+    padding: 40px 0;
+  }
+  .mattressTypesSection{
+    padding: 50px 0;
+  }
+}
+@media(max-width: 991px){
+  .mattressTypesSection__header{
+    margin-bottom: 30px;
+  }
+  .mattressDescription__header{
+    font-size: 25px;
+  }
+  .mattressDescription__description{
+    font-size: 14px;
+  }
+  .mattressTypesSection__header{
+    font-size: 35px;
+  }
+}
+@media(max-width: 767px){
+  .mattressDescription__header{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .mattressDescription__description{
+    font-size: 12px;
+    line-height: 1.2;
+  }
+  .mattress{
+    padding: 20px 0;
+  }
+}
+@media(max-width: 575px){
+  .mattressTypesSection__header{
+    font-size: 25px;
+  }
+  .mattress__description{
+    order:2;
+  }
+  .mattress{
+    margin-bottom: 40px;
+  }
+  .mattress__image{
+    margin-bottom: 15px;
+  }
+  .mattressTypesSection{
+    padding: 30px 0;
+  }
+}

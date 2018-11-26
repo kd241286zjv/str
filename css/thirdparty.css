@@ -37,3 +37,32 @@
 .thirdpartyProduct{
   margin-bottom: 40px;
 }
+
+@media(max-width: 1199px){
+  .thirdpartyProduction{
+    padding: 50px 0;
+  }
+}
+@media(max-width: 991px){
+  .thirdpartyProduction__header{
+    font-size: 35px;
+  }
+}
+@media(max-width: 991px){
+  .thirdpartyProduct__desc{
+    line-height: 1.2;
+  }
+}
+@media(max-width: 767px){
+  .thirdpartyProduction__header{
+    font-size: 30px;
+  }
+  .thirdpartyProduction__subheader{
+    line-height: 1.2;
+  }
+}
+@media(max-width: 575px){
+  .thirdpartyProduction__header{
+    font-size: 25px;
+  }
+}
