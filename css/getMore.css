@@ -1,0 +1,83 @@
+.getMoreSection{
+  padding: 100px 0;
+  color: #333;
+}
+.getMoreSection__header{
+  font-size: 42px;
+  font-weight: 300;
+  color: #1C398B;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.getMoreSection__subheader{
+  font-size: 20px;
+  font-weight: 200;
+  max-width: 630px;
+  margin-bottom: 80px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.promoRow{
+  -ms-align-items: center;
+  align-items: center;
+  position: relative;
+}
+.promoRow:before{
+  position: absolute;
+  height: 100%;
+  width: 3px;
+  background-color: #BFE4EB;
+  display: block;
+  content:'';
+  top: 0;
+  left: calc(50% - 1px);
+}
+.promoBlock p{
+  font-size: 28px;
+  font-weight: 300;
+  color: #1C398B;
+  margin: 10px 0;
+  line-height: 1.2;
+}
+.promoBlock span{
+  font-size: 58px;
+  font-weight: 700;
+  color: #1C398B;
+}
+.promoBlock span:last-child{
+  font-size: 42px;
+}
+.promoTerms p{
+  position: relative;
+  font-size: 22px;
+  font-weight: 300;
+  color: #1C398B;
+  line-height: 2;
+}
+.promoTerms p:before{
+  position: absolute;
+  top: 4px;
+  left: -40px;
+  content:url('../img/check.svg');
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+.getMoreBtn{
+  width: 200px;
+  height: 60px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  background-color: #1C398B;
+  border: 2px solid #1C398B;
+  color: #fff;
+  border-radius: 2px;
+  margin: 0 auto;
+  margin-top: 80px;
+}

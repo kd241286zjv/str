@@ -6,6 +6,8 @@
 @import url('convenient.css');
 @import url('quality.css');
 @import url('thirdparty.css');
+@import url('getMore.css');
+@import url('footer.css');
 *{
   box-sizing: border-box;
 }
