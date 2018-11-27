@@ -255,3 +255,8 @@ footer{
     font-size: 10px;
   }
 }
+@media(max-width: 575px){
+  .footerCallback__header, .footerFeedback__header{
+    font-size: 25px;
+  }
+}

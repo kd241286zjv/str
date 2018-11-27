@@ -138,12 +138,15 @@ header .row{
 @media(max-width: 575px){
   .topHeader{
     top: 10px;
-    padding: 0 10px;
+    padding: 0 15px;
   }
   .pageHeader{
-    font-size: 25px;
+    font-size: 32px;
   }
   .pageSubheader{
     font-size: 16px;
+  }
+  .mainScr{
+    padding: 150px 15px;
   }
 }

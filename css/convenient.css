@@ -17,6 +17,7 @@
 .convenientDesc{
   font-weight: 200;
   max-width: 350px;
+  margin-bottom: 40px;
 }
 
 @media(max-width: 1199px){
